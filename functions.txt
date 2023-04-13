@@ -1,0 +1,52 @@
+Fyers Functions  : 
+    - cancel_basket_orders
+    - cancel_order
+    - client_id
+    - convert_position
+    - create_timestamp
+    - depth
+    - exit_positions
+    - funds
+    - generate_data_token
+    - get_orders
+    - get_profile
+    - header
+    - history
+    - holdings
+    - logObj
+    - log_path
+    - market_status
+    - minquantity
+    - modify_basket_orders
+    - modify_order
+    - orderbook
+    - place_basket_orders
+    - place_order
+    - positions
+    - quotes
+    - service
+    - token
+    - tradebook
+
+Status Code	Meaning
+200	Request was successful
+400	Bad request. The request is invalid or certain other errors
+401	Authorization error. User could not be authenticated
+403	Permission error. User does not have the necessary permissions
+429	Rate limit exceeded. Users have been blocked for exceeding the rate limit.
+500	Internal server error.
+
+Rate Limit
+Timeframe	Rate Limit
+Per Second	10
+Per Minute	200
+Per Day	10000
+
+order status 
+1 => Canceled
+2 => Traded / Filled
+3 => (Not used currently)
+4 => Transit
+5 => Rejected
+6 => Pending
+7 => Expired

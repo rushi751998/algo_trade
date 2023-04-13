@@ -1,0 +1,9 @@
+ALICE_OBJ = None
+ALERT_DF =None
+USERNAME = 'alice_username'
+PASSWORD = 'alice_password'
+YOB = '2000'
+APP_ID = 'alice_app_id'
+SECRET_KEY = 'alice_secret_key'
+BOT_TOKEN = '1326563:456789e3e-0qlUzbfA'    
+BOT_CHAT_ID ='474866'
